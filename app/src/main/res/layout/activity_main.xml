@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    android:theme="@style/Theme.AppCompat"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="302dp"
+        android:layout_marginBottom="30dp"
+        android:contentDescription="@string/imageDesc"
+        app:srcCompat="@drawable/imgapp" />
+
+    <EditText
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/emailEx"
+        android:hint="@string/username"
+        android:inputType="textEmailAddress"
+        android:paddingBottom="20dp" />
+
+    <EditText
+        android:id="@+id/tvPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/passwordExampl"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingBottom="20dp" />
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/login" />
+
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:text="@string/register" />
+
+</LinearLayout>

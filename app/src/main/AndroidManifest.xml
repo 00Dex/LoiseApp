@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Trust.happy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appogo"
+        android:label="@string/appName"
+        android:roundIcon="@mipmap/loogo_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AddHappyActivity"></activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

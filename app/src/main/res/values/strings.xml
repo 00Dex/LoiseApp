@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Happy</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="register">Register</string>
+    <string name="emailEx">JohnDoe@spMail.com</string>
+    <string name="passwordExampl">********</string>
+    <string name="logo">Logo</string>
+    <string name="etName">John</string>
+    <string name="etSurname">Doe</string>
+    <string name="johndoe_secmail_com">JohnDoe@secMail.com</string>
+    <string name="pass">*****</string>
+    <string name="registerlogo">registerLogo</string>
+    <string name="age">21</string>
+    <string name="gend">M</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="appName">Loise</string>
+    <string name="imageDesc">apxmage</string>
+    <string name="addTo">+</string>
+    <string name="Content">Content you would like to add</string>
+    <string name="contentex">SHE LOVES COKE!</string>
+</resources>
