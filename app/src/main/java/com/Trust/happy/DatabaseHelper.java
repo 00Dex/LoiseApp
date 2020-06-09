@@ -8,6 +8,11 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import androidx.annotation.Nullable;
 
+
+/**
+ * Assists with database queries
+ * Allows for: CREATE,RETRIEVE, DELETE,UPDATE functionality
+ */
 public class DatabaseHelper extends SQLiteOpenHelper
 {
 
@@ -27,6 +32,7 @@ public class DatabaseHelper extends SQLiteOpenHelper
         db.execSQL("drop table if exists user");
     }
 
+    //Function to create new user record in table
     public boolean insert(String email,String pass)
     {
         SQLiteDatabase db = this.getWritableDatabase();
@@ -38,6 +44,8 @@ public class DatabaseHelper extends SQLiteOpenHelper
         if(ins == -1)return false;
         else return true;
     }
+
+    //Function to check if user email exists already
     public Boolean chkEmail (String email)
     {
         SQLiteDatabase db = this.getReadableDatabase();
@@ -47,6 +55,7 @@ public class DatabaseHelper extends SQLiteOpenHelper
         else return true;
     }
 
+    //Function to search for user by email and password
     public Boolean emailPassword (String email, String password)
     {
         SQLiteDatabase db = this.getReadableDatabase();

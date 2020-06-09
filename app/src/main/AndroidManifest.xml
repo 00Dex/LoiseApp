@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/loogo_foreground"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AddHappyActivity"></activity>
+        <activity android:name=".addFact"></activity>
         <activity android:name=".HomeActivity" />
         <activity android:name=".RegistrationActivity" />
         <activity android:name=".MainActivity">
